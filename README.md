@@ -2,7 +2,7 @@
 
 ## 🚀 Sobre
 Desenvolvimento backend, utilizando C# como linguagem principal. O foco está na integração com o banco de dados PostgreSQL para armazenamento de dados e na utilização da API gratuita Random User Generator para gerar informações de usuário aleatórias.
-## Contexto 📑
+## 📑 Contexto 
 
 Sistema de Gerenciamento de Tarefas: Auxílio na organização e acompanhamento de atividades diárias. Abaixo estão as funcionalidades principais do sistema:
 
