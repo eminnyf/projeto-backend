@@ -17,16 +17,19 @@ namespace GerenciamentoUsarioAPI.Data
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-      modelBuilder.Entity<Tarefa>()
-          .HasOne(tarefa => tarefa.Usuario) 
-          .WithMany(tarefa => tarefa.Tarefas)
-          .HasForeignKey(tarefa => tarefa.IdDoUsuario)
+
+     // Define o relacionamento entre a entidade Tarefa e Usuario.
+      modelBuilder.Entity<Tarefa>() 
+          .HasOne(tarefa => tarefa.Usuario) // Um pra Um
+          .WithMany(tarefa => tarefa.Tarefas) // Muitas para um
+          .HasForeignKey(tarefa => tarefa.IdDoUsuario) // Chave estrangeira
           .IsRequired();
 
-      modelBuilder.Entity<HistoricoTarefa>()
-          .HasOne(historico => historico.Tarefa) // Tarefa que originou a alteração
-          .WithMany(historico => historico.Historico) // Muitas alterações para uma Tarefa
-          .HasForeignKey(historico => historico.IdDaTarefa); // Chave estrangeira em HistoricoTarefa
+     // Define o relacionamento entre a entidade HistoricoTarefa e Tarefa
+            modelBuilder.Entity<HistoricoTarefa>()
+          .HasOne(historico => historico.Tarefa) 
+          .WithMany(historico => historico.Historico) 
+          .HasForeignKey(historico => historico.IdDaTarefa); 
     }
   }
 
