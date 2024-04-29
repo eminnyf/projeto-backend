@@ -28,7 +28,7 @@ namespace GerenciamentoUsuarioAPI.Models
         // Relacionamento com Tarefas
         public ICollection<Tarefa> Tarefas { get; set; } = new List<Tarefa>();
 
-        // Propriedades de nome
+        // Utilizando para propriedados do nome
         [Required]
         [StringLength(50)]
         public string PrimeiroNome { get; set; }
