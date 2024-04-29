@@ -26,11 +26,11 @@ Para desenvolver esse projeto, utilizamos as seguintes tecnologias:
 
 Antes de começar, é necessário ter instalado em sua máquina:
 
-- [Visual Studio](https://visualstudio.microsoft.com/pt-br/) ou [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio](https://visualstudio.microsoft.com/pt-br/)
 - [PostgreSQL](https://www.postgresql.org/download/)
 - Chave de API da Random User Generator (obtenha uma [aqui](https://randomuser.me/))
 
 <br>
 <h4 align="center">
-    🚧 Projeto BackEnd 💻✨ Em construção... 🚧
+    🚧 Projeto BackEnd 💻✨ Em andamento... 🚧
 <h4>
