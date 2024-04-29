@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using GerenciamentoUsuarioAPI.Services;
-using GerenciamentoUsuarioAPI.Models; // Importe o namespace dos modelos
+using GerenciamentoUsuarioAPI.Models;
 using System;
 using System.Threading.Tasks;
 using GerenciamentoUsarioAPI.Data;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace GerenciamentoUsuarioAPI.Controllers
 {
@@ -11,7 +13,7 @@ namespace GerenciamentoUsuarioAPI.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        private readonly ServicoUsuarioAleatorio _servicoUsuarioAleatorio; 
+        private readonly ServicoUsuarioAleatorio _servicoUsuarioAleatorio;
         private readonly GerenciamentoBD _contexto;
 
         public UsuarioController(ServicoUsuarioAleatorio servicoUsuarioAleatorio, GerenciamentoBD contexto)
@@ -25,18 +27,21 @@ namespace GerenciamentoUsuarioAPI.Controllers
         {
             try
             {
-                // Consumir a API Random User Generator
+                // Consumo da API Random User Generator
                 var dadosUsuario = await _servicoUsuarioAleatorio.ObterDadosUsuarioAleatorio();
 
                 // Armazenar os usuários no banco de dados
                 foreach (var resultado in dadosUsuario.Resultados)
                 {
-                    var novoUsuario = new Usuario // Usando o namespace completo para a classe Usuario
+                    var nomeUsuario = $"{resultado.Name.First.ToLower()}.{resultado.Name.Last.ToLower()}"; // Concatena primeiro nome e sobrenome
+
+                    var novoUsuario = new Usuario
                     {
+                        NomeDeUsuario = nomeUsuario,
+                        Senha = "", // Defina a senha conforme necessário
+                        Email = resultado.Email,
                         PrimeiroNome = resultado.Name.First,
                         Sobrenome = resultado.Name.Last,
-                        Email = resultado.Email,
-                        // Adicione outras propriedades conforme necessário
                     };
 
                     _contexto.Usuarios.Add(novoUsuario);
@@ -46,9 +51,17 @@ namespace GerenciamentoUsuarioAPI.Controllers
 
                 return Ok("Usuários gerados e armazenados com sucesso!");
             }
+            catch (HttpRequestException ex)
+            {
+                return StatusCode(500, "Erro ao acessar a API Random User Generator: " + ex.Message);
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, "Erro ao salvar usuários no banco de dados: " + ex.Message);
+            }
             catch (Exception ex)
             {
-                return StatusCode(500, "Erro ao gerar e armazenar usuários: " + ex.Message);
+                return StatusCode(500, "Ocorreu um erro inesperado: " + ex.Message);
             }
         }
     }

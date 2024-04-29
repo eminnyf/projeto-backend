@@ -1,38 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|c:\\users\\eminn\\documents\\projeto-backend\\gerenciamentousuarioapi\\data\\models\\historicotarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|solutionrelative:data\\models\\historicotarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\GerenciamentoBD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\GerenciamentoBD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|c:\\users\\eminn\\documents\\projeto-backend\\gerenciamentousuarioapi\\data\\models\\dadosusuarioapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|solutionrelative:data\\models\\dadosusuarioapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|c:\\users\\eminn\\documents\\projeto-backend\\gerenciamentousuarioapi\\data\\gerenciamentobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|solutionrelative:data\\gerenciamentobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|c:\\users\\eminn\\documents\\projeto-backend\\gerenciamentousuarioapi\\services\\servicousuarioaleatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|solutionrelative:services\\servicousuarioaleatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\Usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Models\\Usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|c:\\users\\eminn\\documents\\projeto-backend\\gerenciamentousuarioapi\\data\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|solutionrelative:data\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\HistoricoTarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Models\\HistoricoTarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|c:\\users\\eminn\\documents\\projeto-backend\\gerenciamentousuarioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Controllers\\UsuarioController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Controllers\\UsuarioController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|c:\\users\\eminn\\documents\\projeto-backend\\gerenciamentousuarioapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|c:\\users\\eminn\\documents\\projeto-backend\\gerenciamentousuarioapi\\data\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97A5C13-09F7-43BC-B1E6-1CEA093BAC23}|GerenciamentoUsuarioAPI.csproj|solutionrelative:data\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Services\\ServicoUsuarioAleatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ServicoUsuarioAleatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\Tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Models\\Tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\GerenciamentoUsuarioAPI.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GerenciamentoUsuarioAPI.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +54,153 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DadosUsuarioAPI.cs",
-              "DocumentMoniker": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\DadosUsuarioAPI.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\DadosUsuarioAPI.cs",
-              "ToolTip": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\DadosUsuarioAPI.cs",
-              "RelativeToolTip": "Data\\Models\\DadosUsuarioAPI.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:25:33.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Tarefa.cs",
-              "DocumentMoniker": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\Tarefa.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\Tarefa.cs",
-              "ToolTip": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\Tarefa.cs",
-              "RelativeToolTip": "Data\\Models\\Tarefa.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T20:44:02.529Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GerenciamentoBD.cs",
+              "DocumentMoniker": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\GerenciamentoBD.cs",
+              "RelativeDocumentMoniker": "Data\\GerenciamentoBD.cs",
+              "ToolTip": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\GerenciamentoBD.cs",
+              "RelativeToolTip": "Data\\GerenciamentoBD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T20:42:26.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Data\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Data\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T03:22:19.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "HistoricoTarefas.cs",
-              "DocumentMoniker": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\HistoricoTarefas.cs",
+              "DocumentMoniker": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\HistoricoTarefas.cs",
               "RelativeDocumentMoniker": "Data\\Models\\HistoricoTarefas.cs",
-              "ToolTip": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\HistoricoTarefas.cs",
+              "ToolTip": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\HistoricoTarefas.cs",
               "RelativeToolTip": "Data\\Models\\HistoricoTarefas.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAtwBoAAAAHAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T20:56:03.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-28T21:54:13.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T21:22:07.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\Usuarios.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Usuarios.cs",
-              "ToolTip": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\Usuarios.cs",
               "RelativeToolTip": "Data\\Models\\Usuarios.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAfAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwCgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T20:40:57.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-28T21:54:13.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwCIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-29T03:23:02.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAmwDQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T03:17:08.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ServicoUsuarioAleatorio.cs",
-              "DocumentMoniker": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Services\\ServicoUsuarioAleatorio.cs",
+              "DocumentMoniker": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Services\\ServicoUsuarioAleatorio.cs",
               "RelativeDocumentMoniker": "Services\\ServicoUsuarioAleatorio.cs",
-              "ToolTip": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Services\\ServicoUsuarioAleatorio.cs",
+              "ToolTip": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Services\\ServicoUsuarioAleatorio.cs",
               "RelativeToolTip": "Services\\ServicoUsuarioAleatorio.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAswBwAAAAAAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAADQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T21:53:46.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GerenciamentoBD.cs",
-              "DocumentMoniker": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\GerenciamentoBD.cs",
-              "RelativeDocumentMoniker": "Data\\GerenciamentoBD.cs",
-              "ToolTip": "C:\\Users\\eminn\\Documents\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\GerenciamentoBD.cs",
-              "RelativeToolTip": "Data\\GerenciamentoBD.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAEwA8AAABAAAAA",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T20:42:26.452Z",
+              "WhenOpened": "2024-04-28T21:22:07.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GerenciamentoUsuarioAPI.http",
+              "DocumentMoniker": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\GerenciamentoUsuarioAPI.http",
+              "RelativeDocumentMoniker": "GerenciamentoUsuarioAPI.http",
+              "ToolTip": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\GerenciamentoUsuarioAPI.http",
+              "RelativeToolTip": "GerenciamentoUsuarioAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-29T03:15:36.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tarefa.cs",
+              "DocumentMoniker": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\Tarefa.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Tarefa.cs",
+              "ToolTip": "C:\\Users\\eminn\\OneDrive\\Documentos\\projeto-backend\\GerenciamentoUsuarioAPI\\Data\\Models\\Tarefa.cs",
+              "RelativeToolTip": "Data\\Models\\Tarefa.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T20:44:02.529Z",
               "EditorCaption": ""
             }
           ]

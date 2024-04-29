@@ -12,9 +12,9 @@ namespace GerenciamentoUsuarioAPI.Data.Models
 
         [Required]
         [StringLength(100)]
-        public string Titulo { get; set; }
+        public string? Titulo { get; set; }
 
-        public string Descricao { get; set; }
+        public string? Descricao { get; set; }
 
         public DateTime? DataDeVencimento { get; set; }
 
@@ -22,10 +22,11 @@ namespace GerenciamentoUsuarioAPI.Data.Models
 
         public int? IdDoUsuario { get; set; }
 
+        [ForeignKey("IdDoUsuario")]
         public virtual Usuario Usuario { get; set; }
 
 
-        // Relacionamento com Historico Tarefas
+        // Relacionamento com HistoricoTarefas
         public ICollection<HistoricoTarefa> Historico { get; set; } = new List<HistoricoTarefa>();
     }
 }
