@@ -14,7 +14,7 @@ Sistema de Gerenciamento de Tarefas: Auxílio na organização e acompanhamento 
 
 
 ## 🛠 Tecnologias
-Para desenvolver esse projeto, utilizamos as seguintes tecnologias:
+Para desenvolver esse projeto, foram utilizadas as seguintes tecnologias:
 
 - [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 - [PostgreSQL](https://www.postgresql.org/)
