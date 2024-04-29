@@ -1,6 +1,7 @@
 @GerenciamentoUsuarioAPI_HostAddress = http://localhost:5126
 
-GET {{GerenciamentoUsuarioAPI_HostAddress}}/weatherforecast/
+GET https://randomuser.me/api/
 Accept: application/json
+
 
 ###
