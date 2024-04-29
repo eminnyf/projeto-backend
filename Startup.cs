@@ -1,4 +1,6 @@
 using GerenciamentoUsarioAPI.Data;
+using GerenciamentoUsuarioAPI.Controllers;
+using GerenciamentoUsuarioAPI.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -20,12 +22,15 @@ namespace GerenciamentoUsuarioAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
             // Configuração do Entity Framework Core
             services.AddDbContext<GerenciamentoBD>(options =>
-                options.UseNpgsql(Configuration.GetConnectionString("GerenciamentoBD")));
+                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
-            // Verificação da conexão com o banco de dados
-            VerificarConexaoBancoDeDados(Configuration);
+            services.AddScoped<GerenciamentoBD>();
+            services.AddScoped<UsuarioController>();
+            services.AddScoped<ServicoUsuarioAleatorio>();
+
 
             services.AddControllers();
         }
@@ -38,17 +43,14 @@ namespace GerenciamentoUsuarioAPI
             }
             else
             {
-                // Aqui você pode adicionar middleware para lidar com exceções de produção
-                // app.UseExceptionHandler("/Error");
+                app.UseExceptionHandler("/Error");
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
-
+            app.UseStaticFiles();
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
