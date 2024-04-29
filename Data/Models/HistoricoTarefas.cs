@@ -10,9 +10,9 @@ namespace GerenciamentoUsarioAPI.Data.Models
         [Key]
         public int Id { get; set; }
 
-        public string? Titulo { get; set; } // Marcando como anulável usando o operador '?'
+        public string? Titulo { get; set; } // operador '?' marca como anulável
 
-        public string? Descricao { get; set; } // Marcando como anulável usando o operador '?'
+        public string? Descricao { get; set; } 
 
         [DataType(DataType.Date)] 
         public DateTime? DataDeVencimento { get; set; }
@@ -22,9 +22,11 @@ namespace GerenciamentoUsarioAPI.Data.Models
         public DateTime DataModificacao { get; set; }
 
         public int? IdDaTarefa { get; set; }
+
+        [ForeignKey("IdDaTarefa")]
         public virtual Tarefa Tarefa { get; set; }
 
-       
+
 
     }
 }
